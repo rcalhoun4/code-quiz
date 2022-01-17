@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-size: larger;
+}
+
+.quiz {
+    margin: 6rem;
+    padding: 2rem;
+    border: 1px solid black;
+    display: block;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.header {
+    margin: 1rem;
+}
+
+.intro-text {
+    margin: 1rem;
+    display: block;
+}
+
+.btn {
+    margin: 1rem;
+    padding: 0.5rem 2rem;
+    background-color: indigo;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.btn:hover {
+    background-color: violet;
+}
